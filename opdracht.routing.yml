@@ -1,0 +1,17 @@
+
+opdracht.my_opdracht_controller_index:
+  path: '/opdracht/index'
+  defaults:
+    _controller: '\Drupal\opdracht\Controller\MyOpdrachtController::index'
+    _title: 'OpdrachtPlugin'
+  requirements:
+    _permission: 'access content'
+opdracht.opdracht_form:
+  path: '/admin/config/opdracht/opdracht'
+  defaults:
+    _form: '\Drupal\opdracht\Form\OpdrachtForm'
+    _title: 'OpdrachtForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

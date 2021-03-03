@@ -1,0 +1,11 @@
+<?php
+
+
+/**
+ * Implements hook_field_info_alter().
+ *
+ * @see \Drupal\opdracht\OpdrachtPluginManager
+ */
+function opdracht_field_info_alter(&$opdracht_plugin_info)
+{
+}

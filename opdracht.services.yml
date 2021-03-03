@@ -1,0 +1,6 @@
+services:
+  plugin.manager.opdracht:
+    class: Drupal\opdracht\OpdrachtPluginManager
+    parent: default_plugin_manager
+
+
